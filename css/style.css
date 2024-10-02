@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  align-items: center;
+}
+
+body > section {
+  width: 100%;
+}
+
+#upload {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  width: 100%;
+}
+
+#parse-errors {
+  color: red;
+}
+
+#speakers {
+  display: flex;
+  flex-direction: column;
+}
+
+#speakers label span {
+  margin-right: 1em;
+}
+
+#output .segment {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+#output .segment .speaker-label {
+  margin-right: 0.5em;
+  font-weight: bold;
+}
